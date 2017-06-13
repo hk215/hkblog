@@ -6,17 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Tag: hello-blog | Huang Kai’s Blog</title>
+  <title>用hexo和github搭建独立blog | Huang Kai’s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Huang Kai">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Huang Kai’s Blog">
-<meta property="og:url" content="http://yoursite.com/tags/hello-blog/index.html">
+  <meta name="description" content="用hexo搭建独立blog，本地预览，并推到github用github pages托管静态页面 安装nodejsnodejs官网 验证安装12node -vnpm -v 安装gitgit官网 安装hexo首先进入到希望存放blog源文件的目录 12345$ npm install hexo-cli -g$ hexo init$ npm install$ hexo g$ hexo s 安装hexo，">
+<meta name="keywords" content="hexo,github,yilia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="用hexo和github搭建独立blog">
+<meta property="og:url" content="http://yoursite.com/2017/06/13/build-an-independent-blog-using-hexo-and-github/index.html">
 <meta property="og:site_name" content="Huang Kai’s Blog">
-<meta property="og:description" content="Huang Kai">
+<meta property="og:description" content="用hexo搭建独立blog，本地预览，并推到github用github pages托管静态页面 安装nodejsnodejs官网 验证安装12node -vnpm -v 安装gitgit官网 安装hexo首先进入到希望存放blog源文件的目录 12345$ npm install hexo-cli -g$ hexo init$ npm install$ hexo g$ hexo s 安装hexo，">
+<meta property="og:updated_time" content="2017-06-13T06:52:22.280Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Huang Kai’s Blog">
-<meta name="twitter:description" content="Huang Kai">
+<meta name="twitter:title" content="用hexo和github搭建独立blog">
+<meta name="twitter:description" content="用hexo搭建独立blog，本地预览，并推到github用github pages托管静态页面 安装nodejsnodejs官网 验证安装12node -vnpm -v 安装gitgit官网 安装hexo首先进入到希望存放blog源文件的目录 12345$ npm install hexo-cli -g$ hexo init$ npm install$ hexo g$ hexo s 安装hexo，">
   
     <link rel="alternative" href="/atom.xml" title="Huang Kai’s Blog" type="application/atom+xml">
   
@@ -152,60 +154,203 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-build-an-independent-blog-using-hexo-and-github" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/06/12/Hello-Blog/" class="archive-article-date">
-  	<time datetime="2017-06-12T03:37:55.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-12</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/06/12/Hello-Blog/">Hello Blog</a>
+    <h1 class="article-title" itemprop="name">
+      用hexo和github搭建独立blog
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2017/06/13/build-an-independent-blog-using-hexo-and-github/" class="archive-article-date">
+  	<time datetime="2017-06-13T02:29:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-13</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>用hexo搭建独立blog，本地预览，并推到github用github pages托管静态页面</p>
+<h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><p><a href="https://nodejs.org/en/" target="_blank" rel="external">nodejs官网</a></p>
+<h4 id="验证安装"><a href="#验证安装" class="headerlink" title="验证安装"></a>验证安装</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">node -v</div><div class="line">npm -v</div></pre></td></tr></table></figure>
+<h2 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h2><p><a href="https://git-scm.com/downloads" target="_blank" rel="external">git官网</a></p>
+<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>首先进入到希望存放blog源文件的目录</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div><div class="line">$ hexo init</div><div class="line">$ npm install</div><div class="line">$ hexo g</div><div class="line">$ hexo s</div></pre></td></tr></table></figure>
+<p>安装hexo，初始化了一个blog，并部署在了local server上，可以在<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a> 查看</p>
+<h4 id="hexo的基本操作和命令"><a href="#hexo的基本操作和命令" class="headerlink" title="hexo的基本操作和命令"></a>hexo的基本操作和命令</h4><ul>
+<li><code>hexo generate (hexo g)</code>，根据源md文件生成静态html文件到/public/中</li>
+<li><code>hexo server (hexo s)</code>，部署在本地web server，用于实时预览</li>
+<li><code>hexo deploy (hexo d)</code>，将/public/中的静态资源推到远端</li>
+<li><code>hexo new (hexo n) &quot;title&quot;</code>，创建一篇文章</li>
+<li><code>hexo new page &quot;title&quot;</code>，创建一个页面</li>
+<li><code>hexo clean</code>，清空/public/中的静态资源</li>
+</ul>
+<h4 id="hexo主要文件结构"><a href="#hexo主要文件结构" class="headerlink" title="hexo主要文件结构"></a>hexo主要文件结构</h4><blockquote>
+<p>/source/ 存放最原始的源md文件和其他源文件<br>/public/ 存放由源文件生成的静态web文件，<code>hexo d</code>将这个文件夹推到远端<br>/themes/ 主题</p>
+</blockquote>
+<h2 id="hexo主题yilia"><a href="#hexo主题yilia" class="headerlink" title="hexo主题yilia"></a>hexo主题yilia</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/litten/hexo-theme-yilia.git themes/yilia</div></pre></td></tr></table></figure>
+<p>更改hexo根目录下的_config.yml:</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">theme:</span> yilia</div></pre></td></tr></table></figure>
+<h3 id="search-sidebar模块"><a href="#search-sidebar模块" class="headerlink" title="search sidebar模块"></a>search sidebar模块</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm i hexo-generator-json-content --save</div></pre></td></tr></table></figure>
+<p>根目录下_config.yml加入：<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="attr">jsonContent:</span></div><div class="line"><span class="attr">    meta:</span> <span class="literal">false</span></div><div class="line"><span class="attr">    pages:</span> <span class="literal">false</span></div><div class="line"><span class="attr">    posts:</span></div><div class="line"><span class="attr">      title:</span> <span class="literal">true</span></div><div class="line"><span class="attr">      date:</span> <span class="literal">true</span></div><div class="line"><span class="attr">      path:</span> <span class="literal">true</span></div><div class="line"><span class="attr">      text:</span> <span class="literal">false</span></div><div class="line"><span class="attr">      raw:</span> <span class="literal">false</span></div><div class="line"><span class="attr">      content:</span> <span class="literal">false</span></div><div class="line"><span class="attr">      slug:</span> <span class="literal">false</span></div><div class="line"><span class="attr">      updated:</span> <span class="literal">false</span></div><div class="line"><span class="attr">      comments:</span> <span class="literal">false</span></div><div class="line"><span class="attr">      link:</span> <span class="literal">false</span></div><div class="line"><span class="attr">      permalink:</span> <span class="literal">false</span></div><div class="line"><span class="attr">      excerpt:</span> <span class="literal">false</span></div><div class="line"><span class="attr">      categories:</span> <span class="literal">false</span></div><div class="line"><span class="attr">      tags:</span> <span class="literal">true</span></div></pre></td></tr></table></figure></p>
+<h2 id="github-pages配置"><a href="#github-pages配置" class="headerlink" title="github pages配置"></a>github pages配置</h2><p>注册github与配置github ssh，不是此文重点，略过。</p>
+<p>创建一个repository，进入repository的settings，在GitHub Pages下面，选择一个branch，github的配置就完成了。</p>
+<p>看了一些教程，都说repository名字必须是<code>&lt;username&gt;.github.io</code>，其实并不完全对。</p>
+<p>Github Pages分为三种：User， Organization，Project Pages。</p>
+<p>User和Organization Pages要求repository以<code>&lt;username&gt;.github.io</code>和<code>&lt;orgname&gt;.github.io</code>命名，repository名就是访问的域名，但是静态web资源必须放在master branch上，不能选择其他分支。</p>
+<p>Project Pages可以任意命名repository，访问的域名是<code>username.github.io/repositoryname</code>或<code>orgname.github.io/repositoryname</code>，取决于这个repo属于个人还是组织，静态web资源可以放在master，gh-pages分支或者master的/docs文件夹中。</p>
+<p>我选择用Project Pages，分支使用起来更灵活，gh-pages用来存放生成web页面，master用来存放所有的源文件，方便多个设备同时管理blog。至于域名的问题无所谓了，反正后面都会用我自己的域名来做CNAME。</p>
+<p>reference：<a href="https://help.github.com/articles/user-organization-and-project-pages/" target="_blank" rel="external">https://help.github.com/articles/user-organization-and-project-pages/</a></p>
+<h4 id="deploy到github-pages"><a href="#deploy到github-pages" class="headerlink" title="deploy到github pages"></a>deploy到github pages</h4><p>到此已经配好github ssh，github pages，创建了repository，以及gh-pages分支来存放静态页面。</p>
+<p>先安装<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure></p>
+<p>修改_config.yml<br><figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">deploy</span>:</div><div class="line">  <span class="attribute">type</span>: git</div><div class="line">  <span class="attribute">repo</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:hk215/hkblog.git</div><div class="line">  <span class="attribute">branch</span>: gh-pages</div></pre></td></tr></table></figure></p>
+<p><code>hexo g</code>生成、更新/public/静态资源</p>
+<p><code>hexo d</code>将/public/的所有静态资源推到gh-pages里</p>
+<h4 id="github-pages绑定个人域名"><a href="#github-pages绑定个人域名" class="headerlink" title="github pages绑定个人域名"></a>github pages绑定个人域名</h4><ol>
+<li>在个人域名提供商添加一个域名解析CNAME Record到<code>&lt;username&gt;.github.io</code><blockquote>
+<p>我的域名是<code>huangkai.us</code>（提供商namecheap），想用<code>blog.huangkai.us</code>作为我的博客地址，于是登录namecheap，添加一个CNAME Record，<code>Host：blog</code>，<code>Value：hk215.github.io</code></p>
+</blockquote>
+</li>
+<li>在本地hexo跟目录下的/source/下创建一个文件CNAME，将<code>blog.huangkai.us</code>域名写进去<blockquote>
+<p>在github settings里也可以设置Custom domain(原理也是生成CNAME文件)，但是每次用<code>hexo g</code>和<code>hexo d</code>重新生成页面与推到github的时候，会自动把CNAME删掉，原因是本地hexo并不知道设置了CNAME。<br>所以正确的做法是把CNAME放在/source/下，每次<code>hexo g</code>都会把CNAME放到/public/里，然后<code>hexo d</code>将/public/推到远端的时候就可以保证CNAME一直存在了。</p>
+</blockquote>
+</li>
+</ol>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">hello-blog</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">github</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">yilia</a>
         		</li>
       		
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/06/13/build-an-independent-blog-using-hexo-and-github/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
   
   
-    </div></section>
+    <a href="/2017/06/12/Hello-Blog/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello Blog</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+
+
+
+  
+  
   
 
-    
+  
+
+  
 
 
           </div>
@@ -228,9 +373,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false,
 		root: "/",
